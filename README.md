@@ -9,3 +9,7 @@ Show all countries of the world
 ```
 npm run serve
 ```
+
+# Demo
+
+![Demo](https://countrie.nkoch.xyz/)
