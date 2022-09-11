@@ -127,6 +127,7 @@ body {
 .countrie {
   padding: 8px 8px;
   margin: 22px;
+  margin-left: 60px;
   height: 450px;
   width: 300px;
   border-radius: 8px;
