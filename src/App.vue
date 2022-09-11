@@ -202,4 +202,10 @@ body {
   border-radius: 10px;
 }
 
+@media(max-width: 700px) {
+  .countrie {
+    margin-left: 30px;
+  }
+}
+
 </style>
