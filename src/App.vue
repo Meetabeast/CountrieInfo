@@ -8,7 +8,7 @@
 
     <div class="container">
       <div class="countries">
-        <div class="countrie {{countrie.name}}" v-for="countrie in countries" :key=countrie>
+        <div class="countrie" v-for="countrie in countries" :key=countrie>
           <img :src=countrie.flag alt="Countrie Image" class="countrie-image">
           <div class="informations">
             <p>
