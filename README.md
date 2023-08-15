@@ -7,5 +7,5 @@ Show all countries of the world
 2. Run the following command the console
 
 ```
-npm run serve
+npm run DEV
 ```
