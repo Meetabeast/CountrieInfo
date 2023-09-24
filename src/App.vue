@@ -19,6 +19,23 @@ const countries = ref([]);
         countries.value.push(array);
       }
     }));
+
+    let input = document.getElementById("searchCountrie");
+
+    input.onkeyup = function() {
+      let searchInput = document.getElementById("searchCountrie").value;
+      searchInput = searchInput.toLowerCase();
+      let allCountries = document.getElementsByClassName("countrie-name");
+      let allCountrieCards = document.getElementsByClassName('countrie');
+
+      for(var i = 0; i < allCountries.length; i++) {
+        if(!allCountries[i].innerHTML.toLowerCase().includes(searchInput)) {
+          allCountrieCards[i].style.display = "none";
+        } else {
+          allCountrieCards[i].style.display = "block";
+        }
+      }
+    }
   });
 </script>
 
